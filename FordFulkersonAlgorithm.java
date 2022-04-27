@@ -54,7 +54,7 @@ public class FordFulkersonAlgorithm {
                 continue; //연결된 노드가 이미 방문했거나 or flow/capacity가 꽉차있으면 못가므로 pass
 
             int added = find_path(edge.to, Math.min(addible_flow, edge.capacity - edge.flow)); //갈수있으므로, 연결된 노드를 방문하자
-            if (added > 0) { //방문했으면 갱신해야지
+            if (added > 0) { //방문시 갱신
                 edge.flow += added;
                 adj[edge.to].get(edge.residual_idx).flow -= added;
                 return added;
