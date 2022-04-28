@@ -28,6 +28,7 @@
 ![images](https://user-images.githubusercontent.com/101345032/165476380-627edac6-8a1a-4cef-954a-a08e424931fa.jpg)
 ### S에서 A의 용량이 7이고 A에서 T의 용량이 5일때, S에서 T까지의 최대 유량은 몇인가?  
   
+  
 ![images](https://user-images.githubusercontent.com/101345032/165477459-5139dfe6-5854-4ffc-b7ca-4bd73e8b968b.jpg)
 S에서 A의 용량이 7이므로 S에서 A의 최대유량은 7이지만, A에서 T의 용량이 5이므로 최대유량은 5로 제한된다.   
 
